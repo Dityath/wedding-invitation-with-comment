@@ -28,9 +28,11 @@
         margin-bottom: 2vh;
     }
     .info {
-        width: 35vmax;
+        width: 70vmin;
+        max-width: 60%;
         border: 2.5px solid white;
         border-radius: 2vmin;
+        margin: 0 1vw;
         margin-bottom: 3vmax;
         display: flex;
         flex-direction: column;
@@ -59,7 +61,7 @@
                     font-size: 2.4vmin;
                     margin-left: 1vw;
                 }
-                margin-bottom: .5vmax;
+                margin-bottom: 1vmin;
             }
         }
     }

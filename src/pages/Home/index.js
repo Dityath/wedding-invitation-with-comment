@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+// import { useSelector } from 'react-redux'
 import Akad from './Akad'
 import Amplop from './Amplop'
 import Dokumentasi from './Dokumentasi'
@@ -9,8 +9,8 @@ import Penutup from './Penutup'
 import Undangan from './Undangan'
 
 const Home = () => {
-    const posts = useSelector(state => state?.main?.posts)
-    console.log(posts)
+    // const posts = useSelector(state => state?.main?.posts)
+    // console.log(posts)
     return (
         <div className="home-container">
             <Header />

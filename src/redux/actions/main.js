@@ -11,7 +11,7 @@ export const get_item = () => {
       axios
         .get('/posts')
         .then((resp) => {                        
-            console.log(resp.data)
+            // console.log(resp.data)
             dispatch(put_data('posts', resp.data))
         })
         .catch((err) => {                       

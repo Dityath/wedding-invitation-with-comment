@@ -4,9 +4,62 @@ import love from '../../assets/images/love.png'
 import avaWanita from '../../assets/images/pic_wanita.png'
 import stroke from '../../assets/images/stroke.png'
 import strokeMirror from '../../assets/images/stroke_mirror.png'
+import Countdown from 'react-countdown';
 
 const Undangan = () => {
-    const ulang = [1,2,3,4]
+    // const ulang = [1,2,3,4]
+    // const dataWaktu = [
+    //     {
+    //         num: 23,
+    //         text: 'Hari'
+    //     },
+    //     {
+    //         num: 6,
+    //         text: 'Jam'
+    //     },
+    //     {
+    //         num: 4,
+    //         text: 'Menit'
+    //     },
+    //     {
+    //         num: 2,
+    //         text: 'Detik'
+    //     }
+    // ]
+    const dday = new Date(2021, 4, 26)
+    // console.log(dday)
+    const renderer = ({ formatted: { days, hours, minutes, seconds }}) => {        
+        // return <span>Ends in:  {hours} : {minutes} : {seconds}</span>
+        return (
+            <div className="countdown">
+                <div className="time">
+                    <h1>{days}</h1>
+                    <p>Hari</p>                    
+                </div>
+                <div className="divider">
+                    :            
+                </div>
+                <div className="time">
+                    <h1>{hours}</h1>
+                    <p>Jam</p>                    
+                </div>
+                <div className="divider">
+                    :            
+                </div>
+                <div className="time">
+                    <h1>{minutes}</h1>
+                    <p>Menit</p>                    
+                </div>
+                <div className="divider">
+                    :            
+                </div>
+                <div className="time">
+                    <h1>{seconds}</h1>
+                    <p>Detik</p>                    
+                </div>
+            </div>
+        )
+    };
     return (
         <div className="undangan-container">
             <div className="salam">
@@ -15,16 +68,17 @@ const Undangan = () => {
             <div className="stroke">
                 <img src={stroke} alt="" />
             </div>
-            <div className="countdown">
+            <Countdown date={dday} renderer={renderer} />
+            {/* <div className="countdown">
                 {
-                    ulang.map(data => (
+                    dataWaktu.map((data, key) => (
                     <>
-                        <div className="time">
-                            <h1>23</h1>
-                            <p>Hari</p>                    
+                        <div className="time" key={key}>
+                            <h1>{data.num}</h1>
+                            <p>{data.text}</p>                    
                         </div>
                         {
-                            data !== 4?
+                            key !== 3?
                             <div className="divider">
                                 :            
                             </div>
@@ -33,14 +87,14 @@ const Undangan = () => {
                     </>
                     ))
                 }                
-            </div>
+            </div> */}
             <div className="deskripsi">
                 <p>Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan.</p>                
             </div>
             <div className="pasangan">
                 <div className="profil-info">
                     <p>Norhasanah</p>
-                    <p>Putri dari Bapak Supriadi dan Ibu Sulismina</p>
+                    <p>Putri dari Bapak Nanang Hanafiah dan Ibu Samsiah (alm)</p>
                 </div>
                 <div className="profil-pic">
                     <img className="round-ava" src={avaWanita} alt="" />
@@ -48,8 +102,8 @@ const Undangan = () => {
                     <img className="round-ava" src={avaPria} alt="" />
                 </div>
                 <div className="profil-info">
-                    <p>Alfi S.</p>
-                    <p>Putra dari Bapak Supriadi dan Ibu Sulismina</p>
+                    <p>Mukti Areif, S.T</p>
+                    <p>Putra dari Bapak Sabri dan Ibu Rusminah</p>
                 </div>
             </div>
             <div className="stroke">

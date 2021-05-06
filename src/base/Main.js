@@ -18,7 +18,7 @@ import * as mainActions from '../redux/actions/main';
 
 class Main extends Component {
 	componentDidMount() {		
-        this.props.actionsMain.get_item();							
+        // this.props.actionsMain.get_item();							
 	}	
 
     render() {

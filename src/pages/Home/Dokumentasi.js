@@ -50,7 +50,7 @@ function NextArrow(props) {
           window.removeEventListener('resize', resizeListener);
         }
       }, [])   
-      console.log(width)  
+      // console.log(width)  
       const settings = {
         className: "center",
         dots: true,
@@ -94,9 +94,9 @@ function NextArrow(props) {
             </div>
             <h1 className="title">Video Pre-Wedding</h1>
             <div className="video">
-                <div className="video-wrapper">
+                <div className="video-wrapper">                
                     <iframe
-                            src="https://www.youtube.com/embed/G14TFnPsC_4"
+                            src="https://www.youtube.com/embed/eru_H6-7CSw"
                             frameBorder="0"
                             allow="autoplay; encrypted-media"
                             allowFullScreen

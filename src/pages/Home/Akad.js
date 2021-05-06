@@ -24,28 +24,39 @@ const Akad = () => {
                 <div className="detail">
                     <div className="detail-wl">
                         <BiTimeFive size="3vmax" color="white" />
-                        <p>08.00 - 21.00 WIB</p>                    
+                        <p>10.00 - 17.00 WIB</p>                    
                     </div>
                     <div className="detail-wl">
                         <FaCalendarAlt size="3vmax" color="white" />
-                        <p>Rabu, 25 Mei 2021</p>
+                        <p>Rabu, 26 Mei 2021</p>
                     </div>
                     <div className="detail-wl">
                         <FiMapPin size="3vmax" color="white" />
-                        <p>Stadion Gelora Bung Karno</p>
+                        <p>Belakang Ciptaland</p>
                     </div>                
 
                 </div>
             </div>
             <div className="btn">
-                <div className="btn-link">
+                <a           
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    href="https://maps.google.co.id/" 
+                    className="btn-link"
+                >
+                   
                     <ImLocation size="3vmax" color="#4E937E" />
                     <p>Google Maps</p>
-                </div>
-                <div className="btn-link">
+                </a>                
+                <a  
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    href="https://www.instagram.com/" 
+                    className="btn-link"
+                >
                     <FaInstagram size="3vmax" color="#4E937E" />
                     <p>Live Instagram</p>
-                </div>
+                </a>
             
             </div>
 

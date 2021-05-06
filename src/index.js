@@ -4,6 +4,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
+// react-slick
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 // REDUX
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';

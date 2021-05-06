@@ -1,3 +1,26 @@
+.arrow-back {    
+    position: absolute;    
+    top: 50%;
+    left: -4vmax;    
+    z-index: 4;
+}
+.arrow-next {    
+    position: absolute;    
+    top: 50%;
+    z-index: 4;    
+    right: -4vmax;    
+}
+.arrow-next:hover, .arrow-back:hover{
+    cursor: pointer;
+}
+
+.slick-slide.slick-center img {
+    transform: scale(1.2);
+}
+.slick-list, .slick-track {
+    height: 70vmin !important;
+}
+
 .dokumentasi-container {
     display: flex;
     flex-direction: column;
@@ -9,6 +32,19 @@
         font-weight: 400;
         font-size: 7vmin;
         margin: 0;
+    }
+    .carousel {
+        margin-bottom: 4vmin;        
+        .carousel-img {
+            height: 70vmin;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 30vmin;
+                transition: 0.5s ease-in-out;
+            }
+        }
     }
     .video {
         width: 50vmax;

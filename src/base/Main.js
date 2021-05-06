@@ -7,6 +7,7 @@ import NotFound from '../helper/components/404';
 // Pages
 import Home from '../pages/Home/index'
 
+
 // REDUX
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';

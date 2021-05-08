@@ -61,7 +61,7 @@ const Undangan = () => {
         )
     };
     return (
-        <div className="undangan-container">
+        <div className="undangan-container" data-aos="fade-up">
             <div className="salam">
                 <p>Assalamualaikum</p>
             </div>

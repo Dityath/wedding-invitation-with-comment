@@ -28,6 +28,7 @@ class Main extends Component {
 					<div className="content-container">
 						<Switch>
 							<Route exact path="/" component={Home} />							
+							<Route exact path="/:id" component={Home} />							
 							<Route component={NotFound} />
 						</Switch>
 					</div>											

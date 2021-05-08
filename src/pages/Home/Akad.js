@@ -7,16 +7,16 @@ import { ImLocation } from "react-icons/im";
 const Akad = () => {
     return (
         <div className="akad-container">
-            <div className="pembuka">
+            <div className="pembuka" data-aos="fade-up">
                 <p>﷽</p>
             </div>
-            <div className="judul">
+            <div className="judul" data-aos="fade-up">
                 <p>Akad Nikah dan Walimatul 'Ursy</p>
             </div>
-            <div className="text">
+            <div className="text" data-aos="fade-up">
                 <p>In sha Allah akan dilaksanakan pada :</p>
             </div>
-            <div className="info">     
+            <div className="info" data-aos="fade-up">     
                 <div className="info-judul">
                     <h2>Waktu dan Tempat</h2>                
                     <div></div>
@@ -37,7 +37,7 @@ const Akad = () => {
 
                 </div>
             </div>
-            <div className="btn">
+            <div className="btn" data-aos="fade-up">
                 <a           
                     target="_blank"
                     rel="noopener noreferrer" 

@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import { useSelector } from 'react-redux'
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 import Akad from './Akad'
 import Amplop from './Amplop'
 import Dokumentasi from './Dokumentasi'
@@ -11,6 +14,9 @@ import Undangan from './Undangan'
 const Home = () => {
     // const posts = useSelector(state => state?.main?.posts)
     // console.log(posts)
+    useEffect(() => {
+        Aos.init({duration: 2000, once: true});
+    }, []);    
     return (
         <div className="home-container">
             <Header />
@@ -18,7 +24,7 @@ const Home = () => {
             <Akad />
             <Dokumentasi />
             <Amplop />
-            <Penutup />
+            <Penutup />            
             <Footer />
             {/* {
                 posts && posts.map((data) => (

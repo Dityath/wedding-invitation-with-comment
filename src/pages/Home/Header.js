@@ -4,8 +4,7 @@ import cincin from '../../assets/images/cincin.png'
 import Navbar from '../../helper/components/Navbar'
 const Header = () => {
     let { id } = useParams();    
-    let newWords = id.split("-");
-    console.log(newWords)
+    let newWords = id? id.split("-"): ['Nama'];    
     return (
         <div className="header-container">
             <Navbar />

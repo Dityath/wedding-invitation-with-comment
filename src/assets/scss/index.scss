@@ -15,7 +15,13 @@ body {
         @import './partial/Akad.scss';
         @import './partial/Dokumentasi.scss';
         @import './partial/Amplop.scss';
+        @import './partial/Ucapan.scss';
         @import './partial/Penutup.scss';
         @import './partial/Footer.scss';
+        .btn-audio {
+            position: fixed;
+            bottom: 2vmin;
+            left: 4vmin;
+        }
     }
 }

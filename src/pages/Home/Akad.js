@@ -6,7 +6,7 @@ import { ImLocation } from "react-icons/im";
 
 const Akad = () => {
     return (
-        <div className="akad-container">
+        <div className="akad-container" id="add-wed">
             <div className="pembuka" data-aos="fade-up">
                 <p>﷽</p>
             </div>

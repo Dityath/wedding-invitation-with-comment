@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
-import mempelai from '../../assets/images/mempelai.jpg'
-import pria from '../../assets/images/mempelai_pria.jpg'
-import wanita from '../../assets/images/mempelai_wanita.jpg'
+import pic5 from '../../assets/images/gallery_5.jpg'
+import pic7 from '../../assets/images/gallery_7.jpg'
+import pic1 from '../../assets/images/gallery_1.jpg'
+import pic2 from '../../assets/images/gallery_2.jpg'
+import pic3 from '../../assets/images/gallery_3.jpg'
+import pic4 from '../../assets/images/gallery_4.jpg'
+import pic6 from '../../assets/images/gallery_6.jpg'
 import arrBack from "../../assets/images/Slider/ArrowBack.png";
 import arrNext from "../../assets/images/Slider/ArrowNext.png";
 
@@ -63,34 +67,29 @@ function NextArrow(props) {
       adaptiveHeight: true,   
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />
-    };    
+    };  
+    const gallery = [pic5, pic6, pic7, pic1,pic2, pic3, pic4] 
     return (
-        <div className="dokumentasi-container">            
+        <div className="dokumentasi-container" id="gal-wed">            
           <h1 className="title" data-aos="fade-up">Photos Gallery</h1>            
           {/* <div ref={ref} style={{width: '100%'}}>Hello</div> */}
           <div className="carousel" style={{width: '80%'}} data-aos="fade-up">
             <Slider {...settings} >
-                <div >
-                    <div className="carousel-img">
-                        <img src={mempelai} alt="" />
-                    </div>
-                </div>   
-                <div>
-                    <div className="carousel-img">
-                        <img src={pria} alt="" />
-                    </div>                                 
-                </div>             
-                <div>
-                    <div className="carousel-img">
-                        <img src={wanita} alt="" />
-                    </div>                
-                </div>                
-                <div>
-                    <div className="carousel-img">
-                        <img src={wanita} alt="" />
-                    </div>                
-                </div>                
+              {
+                gallery.map(url => (
+                  <div >
+                      <div className="carousel-img">
+                          <img src={url} alt="" />
+                      </div>
+                  </div>   
+
+                ))
+              }
+                                
             </Slider>
+          </div>
+          <div id="vid-wed">
+
           </div>
           <h1 className="title" data-aos="fade-up">Video Pre-Wedding</h1>
           <div className="video" data-aos="fade-up">

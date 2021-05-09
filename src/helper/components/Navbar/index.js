@@ -5,19 +5,19 @@ const Navbar = () => {
     const [showHamburgerMenu, setShowHamburgerMenu] = React.useState(false)
     const link = [
         {
-            route:'#home-sea',
+            route:'#home-wed',
             text: 'Home'
         },
         {
-            route:'#home-sea',
+            route:'#add-wed',
             text: 'Address'
         },
         {
-            route:'#home-sea',
+            route:'#gal-wed',
             text: 'Photo'
         },
         {
-            route:'#home-sea',
+            route:'#vid-wed',
             text: 'Video'
         },
         {

@@ -6,9 +6,9 @@ const Header = () => {
     let { id } = useParams();    
     let newWords = id? id.split("-"): ['Nama'];    
     return (
-        <div className="header-container">
+        <div className="header-container" id="home-wed">
             <Navbar />
-            <div className="info" data-aos="fade-up">
+            <div className="info" data-aos="fade-up" >
                 <div className="info-undangan">
                     <img src={cincin} alt="" />
                     <h1>Mukti &#38; Norhasanah</h1>

@@ -15,7 +15,7 @@ const Home = () => {
     // const posts = useSelector(state => state?.main?.posts)
     // console.log(posts)
     useEffect(() => {
-        Aos.init({duration: 2000, once: true});
+        Aos.init({duration: 1500, once: true});
     }, []);    
     return (
         <div className="home-container">

@@ -20,8 +20,12 @@ body {
         @import './partial/Footer.scss';
         .btn-audio {
             position: fixed;
-            bottom: 2vmin;
+            bottom: 4vmin;
             left: 4vmin;
+            img {
+                width: 12vmin;
+                cursor: pointer;
+            }
         }
     }
 }

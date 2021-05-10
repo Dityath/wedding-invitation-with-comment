@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 .ucapan-container .slick-list, .slick-track {
-    height: 50vmin !important;
+    height: 60vmin !important;
 }
 
 .ucapan-container {
@@ -33,7 +33,7 @@
     .carousel {
         margin-bottom: 4vmin;        
         .carousel-img {
-            height: 50vmin;
+            height: 60vmin;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -55,4 +55,10 @@
             }
         }
     }    
+}
+
+@media (max-width: 885px) {
+    .ucapan-container {
+        background-size: 25vw 15vw;
+    }
 }

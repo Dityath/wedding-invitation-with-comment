@@ -50,14 +50,26 @@
             }
         }
         &-barcode {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             img {
-                width: 29vmin;
+                width: 25vmin;
+                margin: 3vmin;
             }
             p {
                 margin: 0;
                 font-size: 2.2vmin;
                 font-weight: bold;
                 text-align: center;
+            }
+            .transfer {
+                width: 29vmin;
+                margin: 9.5vmin;
+            }
+            .no-rek {
+                font-size: 2vmin;
             }
         }
     }

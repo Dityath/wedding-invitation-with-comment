@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
-import pic1 from '../../assets/images/ucapan_1.png'
+import pic1 from '../../assets/images/ucapan_3.png'
+import pic2 from '../../assets/images/ucapan_2.png'
 import arrBack from "../../assets/images/Slider/ArrowBack.png";
 import arrNext from "../../assets/images/Slider/ArrowNext.png";
 
@@ -49,7 +50,7 @@ function NextArrow(props) {
             pesan: 'Untuk Suami, Percayalah, ketika engkau memuliakan istrimu, maka sejak saat itu kebahagiaan akan selalu menghampirimu... Untuk Istri, Suami tidak akan pernah berhenti untuk memikirkan pasangannya (istri). Percayalah, dia selalu memikirkan dan memberikan yang terbaik untuk dirimu...'
         },
         {
-            url: pic1,
+            url: pic2,
             name: 'Anddy Marrusliansyah',
             pesan: 'Kami tidak bisa memberikan sesuatu yang terbaik untuk dirimu, teman sekaligus keluarga untukmu. Setelah sekian lama akhirnya dirimu menemukan tambatan hati yang terakhir, kami akan selalu berdoa semoga hal terbaik menyertai u dan mampu mengarungi bahtera keluarga yang baru'
         },

@@ -12,14 +12,18 @@ import Penutup from './Penutup'
 import Undangan from './Undangan'
 import Ucapan from './Ucapan'
 
+import btnOn from '../../assets/images/On.png'
+import btnOff from '../../assets/images/Off.png'
+
 const Home = () => {
     // const posts = useSelector(state => state?.main?.posts)
     // console.log(posts)
     useEffect(() => {
         Aos.init({duration: 1500, once: true});
+        myRef.current.play()          
     }, []);        
-    const cdn = "https://cdngarenanow-a.akamaihd.net/webid/FF/emerald/"
-    const [music, setMusic] = useState(false);    
+    // const cdn = "https://cdngarenanow-a.akamaihd.net/webid/FF/emerald/"
+    const [music, setMusic] = useState(true);    
     const myRef = useRef();
 
     const play = () => {
@@ -62,7 +66,13 @@ const Home = () => {
                     ref={myRef}
                     src="https://res.cloudinary.com/bagastri07/video/upload/v1620572921/y2mate.com_-_Marry_Me_Thomas_Rhett_Lyrics_btvj9e.mp3"
                 />                
-                <img src={cdn+"img_music_on.png"} style={music?{opacity: '1'}:{opacity: '0.5'}} onClick={music? pause: play} alt="" />                
+                {
+                    music?
+                    <img src={btnOn} onClick={pause} alt="" />                
+                    :
+                    <img src={btnOff} onClick={play} alt="" />                
+
+                }
             </div>
         </div>
     )

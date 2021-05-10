@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import imgBarcode from '../../assets/images/barcode.png'
-import imgBarcode1 from '../../assets/images/barcode_1.png'
+import imgBarcode from '../../assets/images/qrcode.jpeg'
+import imgBarcode1 from '../../assets/images/transfer_bank.png'
 
 const Amplop = () => {
     const [btn, setBtn] = useState(true)
@@ -22,12 +22,13 @@ const Amplop = () => {
                         btn?
                         <>
                             <img src={imgBarcode} alt="" />
-                            <p>A/N Muhammad Juliandro</p>
+                            <p>A/N Mukti Areif</p>
                         </>
                         :
                         <>
-                            <img src={imgBarcode1} alt="" />
-                            <p>A/N Muhammad Alfi</p>
+                            <img className="transfer" src={imgBarcode1} alt="" />
+                            <p className="norek">159-0002-4703-17</p>
+                            <p>A/N Mukti Areif</p>
                         </>
                     }                    
                 </div>

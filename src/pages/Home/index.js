@@ -18,13 +18,13 @@ import btnOff from '../../assets/images/Off.png'
 const Home = () => {
     // const posts = useSelector(state => state?.main?.posts)
     // console.log(posts)
+    const myRef = useRef();
     useEffect(() => {
         Aos.init({duration: 1500, once: true});
         myRef.current.play()          
     }, []);        
     // const cdn = "https://cdngarenanow-a.akamaihd.net/webid/FF/emerald/"
     const [music, setMusic] = useState(true);    
-    const myRef = useRef();
 
     const play = () => {
         setMusic(true);

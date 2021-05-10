@@ -30,7 +30,7 @@ class Main extends Component {
 							<Route exact path="/" component={Home} />							
 							<Route exact path="/:id" component={Home} />							
 							<Route component={NotFound} />
-						</Switch>
+						</Switch>			
 					</div>											
 				</div>
 			</Router>

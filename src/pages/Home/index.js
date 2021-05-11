@@ -82,7 +82,7 @@ const Home = () => {
     // console.log(player)            
     // const cdn = "https://cdngarenanow-a.akamaihd.net/webid/FF/emerald/"
    
-    console.log(music)
+    // console.log(music)
     // const handleScroll = () => {
     //     if (scrolling === false) {            
     //         document.getElementById("myAudio").play()
@@ -112,7 +112,7 @@ const Home = () => {
 
     return (
         <div className="home-container">
-            <Header more={handleMore} />
+            <Header more={handleMore} heightHead={scrolling} />
             {
                 scrolling?
                 <>

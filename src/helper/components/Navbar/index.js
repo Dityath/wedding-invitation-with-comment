@@ -39,11 +39,11 @@ const Navbar = () => {
                     <h1>WEDDINGS</h1>
                 </div>  
 
-                <div class="menu">
+                <div className="menu">
                     <ul className={showHamburgerMenu ? 'showing' : ''} > 
                         {
-                            link.map(data => (
-                                <li className="bg-biru">
+                            link.map((data, key) => (
+                                <li className="bg-biru" key={key}>
                                     <a href={data.route}>
                                         <span> {data.text} </span>
                                     </a>

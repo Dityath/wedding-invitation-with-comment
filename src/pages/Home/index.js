@@ -16,15 +16,14 @@ import btnOn from '../../assets/images/On.png'
 import btnOff from '../../assets/images/Off.png'
 
 const Home = () => {
+    const myRef = useRef();    
+    const [music, setMusic] = useState(true);    
     // const posts = useSelector(state => state?.main?.posts)
     // console.log(posts)
-    const myRef = useRef();
     useEffect(() => {
-        // myRef.current.play()          
-        Aos.init({duration: 1500, once: true});
-    }, []);        
+        Aos.init({duration: 1500, once: true});        
+    }, []);                 
     // const cdn = "https://cdngarenanow-a.akamaihd.net/webid/FF/emerald/"
-    const [music, setMusic] = useState(true);    
 
     const play = () => {
         setMusic(true);
@@ -49,7 +48,7 @@ const Home = () => {
                     <p>{data.title}</p>
                 ))                
             } */}            
-            <div className="btn-audio">
+            <div className="btn-audio">     
                 {
                     // music?
                     // <iframe src="https://res.cloudinary.com/bagastri07/video/upload/v1620572921/y2mate.com_-_Marry_Me_Thomas_Rhett_Lyrics_btvj9e.mp3"
@@ -61,12 +60,10 @@ const Home = () => {
                     // /> 
                     // :
                     // ''
-                }   
-                <audio
-                    ref={myRef}
-                    src="https://res.cloudinary.com/bagastri07/video/upload/v1620572921/y2mate.com_-_Marry_Me_Thomas_Rhett_Lyrics_btvj9e.mp3"
-                    autoPlay
-                />                 
+                }         
+                <audio ref={myRef} id="myAudio" autoPlay muted={false}>
+                    <source src="https://res.cloudinary.com/bagastri07/video/upload/v1620572921/y2mate.com_-_Marry_Me_Thomas_Rhett_Lyrics_btvj9e.mp3" type="audio/mpeg" />                    
+                </audio>
                 {
                     music?
                     <img src={btnOn} onClick={pause} alt="" />                

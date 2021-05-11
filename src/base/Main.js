@@ -16,9 +16,10 @@ import * as mainActions from '../redux/actions/main';
 
 
 
-class Main extends Component {
+class Main extends Component {	
 	componentDidMount() {		
         // this.props.actionsMain.get_item();							
+		
 	}	
 
     render() {
@@ -31,7 +32,7 @@ class Main extends Component {
 							<Route exact path="/:id" component={Home} />							
 							<Route component={NotFound} />
 						</Switch>			
-					</div>											
+					</div>																
 				</div>
 			</Router>
         );

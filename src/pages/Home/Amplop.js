@@ -7,7 +7,7 @@ const Amplop = () => {
     return (
         <div className="amplop-container">
             <h1 className="title" data-aos="fade-up">Amplop Online</h1>
-            <p className="deskripsi" data-aos="fade-up">Bagi para undangan yang ingin memberikan amplop secara digital dapat menggunakan motode yang ada di bawah ini</p>
+            <p className="deskripsi" data-aos="fade-up">Bagi para undangan yang ingin memberikan amplop secara digital dapat menggunakan metode yang ada di bawah ini</p>
             <div className="option" data-aos="fade-up">
                 <div className="option-online">
                     <div className="btn" onClick={() => setBtn(true)}>

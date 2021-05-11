@@ -61,53 +61,56 @@ const Undangan = () => {
         )
     };
     return (
-        <div className="undangan-container" data-aos="fade-up">
-            <div className="salam">
-                <p>Assalamualaikum</p>
-            </div>
-            <div className="stroke">
-                <img src={stroke} alt="" />
-            </div>
-            <Countdown date={dday} renderer={renderer} />
-            {/* <div className="countdown">
-                {
-                    dataWaktu.map((data, key) => (
-                    <>
-                        <div className="time" key={key}>
-                            <h1>{data.num}</h1>
-                            <p>{data.text}</p>                    
-                        </div>
-                        {
-                            key !== 3?
-                            <div className="divider">
-                                :            
+        <div  id="undangan-wed">
+
+            <div className="undangan-container" data-aos="fade-up">
+                <div className="salam">
+                    <p>Assalamualaikum</p>
+                </div>
+                <div className="stroke">
+                    <img src={stroke} alt="" />
+                </div>
+                <Countdown date={dday} renderer={renderer} />
+                {/* <div className="countdown">
+                    {
+                        dataWaktu.map((data, key) => (
+                        <>
+                            <div className="time" key={key}>
+                                <h1>{data.num}</h1>
+                                <p>{data.text}</p>                    
                             </div>
-                            :''
-                        }
-                    </>
-                    ))
-                }                
-            </div> */}
-            <div className="deskripsi">
-                <p>Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan.</p>                
-            </div>
-            <div className="pasangan">
-                <div className="profil-info">
-                    <p>Norhasanah</p>
-                    <p>Putri dari Bapak Haji Nanang Hanafiah dan Ibu Samsiah (alm)</p>
+                            {
+                                key !== 3?
+                                <div className="divider">
+                                    :            
+                                </div>
+                                :''
+                            }
+                        </>
+                        ))
+                    }                
+                </div> */}
+                <div className="deskripsi">
+                    <p>Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan.</p>                
                 </div>
-                <div className="profil-pic">
-                    <img className="round-ava" src={avaWanita} alt="" />
-                    <img className="love" src={love} alt="" />
-                    <img className="round-ava" src={avaPria} alt="" />
+                <div className="pasangan">
+                    <div className="profil-info">
+                        <p>Norhasanah</p>
+                        <p>Putri dari Bapak Haji Nanang Hanafiah dan Ibu Samsiah (alm)</p>
+                    </div>
+                    <div className="profil-pic">
+                        <img className="round-ava" src={avaWanita} alt="" />
+                        <img className="love" src={love} alt="" />
+                        <img className="round-ava" src={avaPria} alt="" />
+                    </div>
+                    <div className="profil-info">
+                        <p>Mukti Areif, S.T</p>
+                        <p>Putra dari Bapak Sabri dan Ibu Rusminah</p>
+                    </div>
                 </div>
-                <div className="profil-info">
-                    <p>Mukti Areif, S.T</p>
-                    <p>Putra dari Bapak Sabri dan Ibu Rusminah</p>
+                <div className="stroke">
+                    <img src={strokeMirror} alt="" />
                 </div>
-            </div>
-            <div className="stroke">
-                <img src={strokeMirror} alt="" />
             </div>
         </div>
     )

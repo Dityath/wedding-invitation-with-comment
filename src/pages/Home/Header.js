@@ -18,7 +18,7 @@ const Header = ({more, heightHead}) => {
                 </div>
                 <div className="info-tamu">
                     <p>Dear</p>
-                    <p>{newWords.map(word => word + " ")} &#38; Istri</p>
+                    <p>{newWords.map(word => word + " ")} </p>
                     <div></div>
                 </div>
                 <div className="btn-more">

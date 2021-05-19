@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import pic1 from '../../assets/images/ucapan_3.png'
 import pic2 from '../../assets/images/ucapan_2.png'
+import pic3 from '../../assets/images/ucapan_4.png'
 import arrBack from "../../assets/images/Slider/ArrowBack.png";
 import arrNext from "../../assets/images/Slider/ArrowNext.png";
 
@@ -53,6 +54,11 @@ function NextArrow(props) {
             url: pic2,
             name: 'Anddy Marrusliansyah',
             pesan: 'Kami tidak bisa memberikan sesuatu yang terbaik untuk dirimu, teman sekaligus keluarga untukmu. Setelah sekian lama akhirnya dirimu menemukan tambatan hati yang terakhir, kami akan selalu berdoa semoga hal terbaik menyertai u dan mampu mengarungi bahtera keluarga yang baru'
+        },
+        {
+            url: pic3,
+            name: 'Bu Eka Rubiyatun',
+            pesan: 'Komitmen, kesabaran, dan kesetiaan menjadi tiga bahan yang perlu dipupuk dalam pernikahan. Jangan berhenti untuk merawat, karena bunga itu akan menemanimu setiap saat.'
         },
     ] 
     return (

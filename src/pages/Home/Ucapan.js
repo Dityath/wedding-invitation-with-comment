@@ -3,6 +3,9 @@ import Slider from "react-slick";
 import pic1 from '../../assets/images/ucapan_3.png'
 import pic2 from '../../assets/images/ucapan_2.png'
 import pic3 from '../../assets/images/ucapan_4.png'
+import pic4 from '../../assets/images/ucapan_5.png'
+import pic5 from '../../assets/images/ucapan_6.png'
+import pic6 from '../../assets/images/ucapan_7.png'
 import arrBack from "../../assets/images/Slider/ArrowBack.png";
 import arrNext from "../../assets/images/Slider/ArrowNext.png";
 
@@ -59,6 +62,21 @@ function NextArrow(props) {
             url: pic3,
             name: 'Bu Eka Rubiyatun',
             pesan: 'Komitmen, kesabaran, dan kesetiaan menjadi tiga bahan yang perlu dipupuk dalam pernikahan. Jangan berhenti untuk merawat, karena bunga itu akan menemanimu setiap saat.'
+        },
+        {
+            url: pic4,
+            name: 'Putri Dian Nawwirah',
+            pesan: 'Selamat menempuh hidup baru & selamat berbahagia Kakakku... Semoga Allah memberikan keberkahan kepadamu serta keberkahan atasmu dan semoga Allah mengumpulkan kalian berdua dalam kebaikan....'
+        },
+        {
+            url: pic5,
+            name: 'Novita',
+            pesan: "Barakallahu lakuma wa baraka 'alaikuma wa jama'a bainakuma fii khoir.  Selamat menempuh hidup baru ...d berikan keturuan yang shalih  shalihah... Semoga suami mu bisa menjadi pendamping dunia dan akhirat mu.. dan bisa membahagiakan mu lahir dan batin."
+        },
+        {
+            url: pic6,
+            name: 'Lila Zein',
+            pesan: "Buat kak Sanah, dan bang Mikti.... Selamat menempuh kehidupan yang penuh keberkahan, dan kebahagiaan duniaakhirat. 'Sebuah pernikahan itu bagaikan rantai dan cincin emas,  Yang diawali dengan secercah sinar terang dan di akhiri dengan keabadian'"
         },
     ] 
     return (

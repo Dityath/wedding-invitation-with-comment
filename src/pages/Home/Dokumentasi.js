@@ -95,7 +95,7 @@ function NextArrow(props) {
           <div className="video" data-aos="fade-up">
               <div className="video-wrapper">                
                   <iframe
-                          src="https://www.youtube.com/embed/eru_H6-7CSw"
+                          src="https://www.youtube.com/embed/TTgN-gMZKoU"
                           frameBorder="0"
                           allow="autoplay; encrypted-media"
                           allowFullScreen

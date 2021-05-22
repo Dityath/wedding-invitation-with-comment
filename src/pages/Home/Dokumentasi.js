@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import YouTube from 'react-youtube';
 import Slider from "react-slick";
+
 import pic5 from '../../assets/images/gallery_5.jpg'
 import pic7 from '../../assets/images/gallery_7.jpg'
 import pic1 from '../../assets/images/gallery_1.jpg'
@@ -33,7 +35,7 @@ function NextArrow(props) {
       </div>
     );
   }
-  const Dokumentasi = () => {
+  const Dokumentasi = ({handleBacksound}) => {
     // const ref = useRef(null);    
     const getWidth = () => window.innerWidth 
       || document.documentElement.clientWidth 
@@ -68,7 +70,12 @@ function NextArrow(props) {
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />
     };  
-    const gallery = [pic5, pic6, pic7, pic1,pic2, pic3, pic4] 
+    const gallery = [pic5, pic6, pic7, pic1,pic2, pic3, pic4]     
+    const opts = {
+      height: '315',
+      width: '560',      
+    };
+
     return (
         <div className="dokumentasi-container" id="gal-wed">            
           <h1 className="title" data-aos="fade-up">Photos Gallery</h1>            
@@ -94,15 +101,16 @@ function NextArrow(props) {
           <h1 className="title" data-aos="fade-up">Video Pre-Wedding</h1>
           <div className="video" data-aos="fade-up">
               <div className="video-wrapper">                
-                  <iframe
+                  {/* <iframe
                           src="https://www.youtube.com/embed/TTgN-gMZKoU"
                           frameBorder="0"
                           allow="autoplay; encrypted-media"
                           allowFullScreen
                           title="video"
                           width="560"
-                          height="315"
-                  />
+                          height="315"                          
+                  /> */}
+                  <YouTube videoId="TTgN-gMZKoU" opts={opts} onPlay={handleBacksound}/>
 
               </div>
               

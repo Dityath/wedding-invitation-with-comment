@@ -20,6 +20,7 @@
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "react-slick-adaptive-height-fixed": "^0.23.2",
+    "react-youtube": "^7.13.1",
     "redux-thunk": "^2.3.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"

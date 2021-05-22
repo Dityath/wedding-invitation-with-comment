@@ -102,6 +102,12 @@ const Home = () => {
             setMusic(true)
         }
     }
+    const handleBacksound = () => {
+        if(music) {
+            document.getElementById("myAudio").pause()
+            setMusic(false)
+        }   
+    }
     const handleMore = () => {
         if (scrolling === false) {    
             setScrolling(true)   
@@ -118,7 +124,7 @@ const Home = () => {
                 <>
                 <Undangan />
                 <Akad />
-                <Dokumentasi />
+                <Dokumentasi handleBacksound={handleBacksound} />
                 <Amplop />
                 <Ucapan />
                 <Penutup />            

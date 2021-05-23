@@ -62,6 +62,8 @@ function NextArrow(props) {
       dots: true,
       centerMode: true,
       infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2500,
       centerPadding: "60px",
       speed: 500,
       slidesToShow: width < 1000? 1:3,

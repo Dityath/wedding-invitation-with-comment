@@ -76,7 +76,7 @@ function NextArrow(props) {
         {
             url: pic6,
             name: 'Lila Zein',
-            pesan: "Buat kak Sanah, dan bang Mikti.... Selamat menempuh kehidupan yang penuh keberkahan, dan kebahagiaan duniaakhirat. 'Sebuah pernikahan itu bagaikan rantai dan cincin emas,  Yang diawali dengan secercah sinar terang dan di akhiri dengan keabadian'"
+            pesan: "Buat kak Sanah, dan bang Mukti.... Selamat menempuh kehidupan yang penuh keberkahan, dan kebahagiaan duniaakhirat. 'Sebuah pernikahan itu bagaikan rantai dan cincin emas,  Yang diawali dengan secercah sinar terang dan di akhiri dengan keabadian'"
         },
     ] 
     return (

@@ -42,7 +42,7 @@ function NextArrow(props) {
       infinite: true,      
       speed: 500,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 8000,
       slidesToShow: 1,
       slidesToScroll: 1,     
       adaptiveHeight: true,   

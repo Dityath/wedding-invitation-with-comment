@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import imgBarcode from '../../assets/images/barcode.png'
+//import React, { useState } from 'react'
+//import imgBarcode from '../../assets/images/barcode.png'
 import imgBarcode1 from '../../assets/images/transfer_bank.png'
 
 const Amplop = () => {
-    const [btn, setBtn] = useState(true)
+    //const [btn, setBtn] = useState(true)
     return (
         <div className="amplop-container">
             <h1 className="title" data-aos="fade-up">Amplop Online</h1>

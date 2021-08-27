@@ -97,13 +97,13 @@ function NextArrow(props) {
                                 
             </Slider>
           </div>
-          <div id="vid-wed">
+          {/* <div id="vid-wed">
 
           </div>
           <h1 className="title" data-aos="fade-up">Video Pre-Wedding</h1>
           <div className="video" data-aos="fade-up">
               <div className="video-wrapper">                
-                  {/* <iframe
+                  <iframe
                           src="https://www.youtube.com/embed/TTgN-gMZKoU"
                           frameBorder="0"
                           allow="autoplay; encrypted-media"
@@ -111,12 +111,12 @@ function NextArrow(props) {
                           title="video"
                           width="560"
                           height="315"                          
-                  /> */}
+                  />
                   <YouTube videoId="TTgN-gMZKoU" opts={opts} onPlay={handleBacksound}/>
 
               </div>
               
-          </div>
+          </div> */}
 
         </div>
     )

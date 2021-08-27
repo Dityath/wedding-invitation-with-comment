@@ -26,7 +26,7 @@ const Undangan = () => {
     //         text: 'Detik'
     //     }
     // ]
-    const dday = new Date(2021, 4, 26)
+    const dday = new Date(2021, 9, 10)
     // console.log(dday)
     const renderer = ({ formatted: { days, hours, minutes, seconds }}) => {        
         // return <span>Ends in:  {hours} : {minutes} : {seconds}</span>
@@ -95,17 +95,17 @@ const Undangan = () => {
                 </div>
                 <div className="pasangan">
                     <div className="profil-info">
-                        <p>Norhasanah</p>
-                        <p>Putri dari Bapak H. Nanang Hanafiah dan Ibu Samsiah (alm)</p>
+                        <p>Ferdiansyah</p>
+                        <p>Putra dari bapak Hartawi <br />dan ibu Munia</p>
                     </div>
                     <div className="profil-pic">
-                        <img className="round-ava" src={avaWanita} alt="" />
-                        <img className="love" src={love} alt="" />
                         <img className="round-ava" src={avaPria} alt="" />
+                        <img className="love" src={love} alt="" />
+                        <img className="round-ava" src={avaWanita} alt="" />
                     </div>
                     <div className="profil-info">
-                        <p>Mukti Areif, S.T</p>
-                        <p>Putra dari Bapak Sabri dan Ibu Rusminah</p>
+                        <p>Hesti Rosita</p>
+                        <p>Putri dari <br/> bapak Muhammad Mukri <br /> dan ibu Siti Kamaruyah</p>
                     </div>
                 </div>
                 <div className="stroke">

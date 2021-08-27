@@ -14,7 +14,7 @@ const Akad = () => {
                 <p>Akad Nikah dan Walimatul 'Ursy</p>
             </div>
             <div className="text" data-aos="fade-up">
-                <p>In sha Allah akan dilaksanakan pada :</p>
+                <p>Akad Nikah</p>
             </div>
             <div className="info" data-aos="fade-up">     
                 <div className="info-judul">
@@ -24,15 +24,39 @@ const Akad = () => {
                 <div className="detail">
                     <div className="detail-wl">
                         <BiTimeFive size="3vmax" color="white" />
-                        <p>10.00 - 17.00 WIB</p>                    
+                        <p>08.00 WIB</p>                    
                     </div>
                     <div className="detail-wl">
                         <FaCalendarAlt size="3vmax" color="white" />
-                        <p>Rabu, 26 Mei 2021</p>
+                        <p>Jum'at, 10 September 2021</p>
                     </div>
                     <div className="detail-wl">
                         <FiMapPin size="3vmax" color="white" />
-                        <p>Belakang Ciptaland</p>
+                        <p>Jl. Maid Badir RT 10 <br />Kel. Madurejo</p>
+                    </div>                
+
+                </div>
+            </div>
+            <div className="text" data-aos="fade-up">
+                <p>Walimatul ‘Ursy</p>
+            </div>
+            <div className="info" data-aos="fade-up">     
+                <div className="info-judul">
+                    <h2>Waktu dan Tempat</h2>                
+                    <div></div>
+                </div>           
+                <div className="detail">
+                    <div className="detail-wl">
+                        <BiTimeFive size="3vmax" color="white" />
+                        <p>08.00 WIB - Selesai</p>                    
+                    </div>
+                    <div className="detail-wl">
+                        <FaCalendarAlt size="3vmax" color="white" />
+                        <p>Minggu, 12 September 2021</p>
+                    </div>
+                    <div className="detail-wl">
+                        <FiMapPin size="3vmax" color="white" />
+                        <p>Jl. Belimbing RT 8/02 <br />Kel. Candi</p>
                     </div>                
 
                 </div>
@@ -45,7 +69,7 @@ const Akad = () => {
                     className="btn-link"
                 >
                    
-                    <ImLocation size="3vmax" color="#4E937E" />
+                    <ImLocation size="3vmax" color="#9CB8C4" />
                     <p>Google Maps</p>
                 </a>                
                 <a  
@@ -54,7 +78,7 @@ const Akad = () => {
                     href="https://www.instagram.com/muktiareif/" 
                     className="btn-link"
                 >
-                    <FaInstagram size="3vmax" color="#4E937E" />
+                    <FaInstagram size="3vmax" color="#9CB8C4" />
                     <p>Live Instagram</p>
                 </a>
             

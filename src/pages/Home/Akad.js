@@ -65,7 +65,7 @@ const Akad = () => {
                 <a           
                     target="_blank"
                     rel="noopener noreferrer" 
-                    href="https://maps.app.goo.gl/gHXu9X7CscSQwpHx9" 
+                    href="https://goo.gl/maps/K6D5CaPLpHRTY3rd6"
                     className="btn-link"
                 >
                    

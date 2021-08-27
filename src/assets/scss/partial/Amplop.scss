@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;    
     padding: 4vmin 0;
-    background-color: $green-wed-2;    
+    background-color: $blue-wed;    
     .title {
         font-family: 'Pacifico', cursive;
         color: white;
@@ -22,6 +22,7 @@
     .option {
         background-color: white;
         width: 63vmin;
+        height: 42vmin;
         display: flex;
         flex-direction: column;
         align-items: center;

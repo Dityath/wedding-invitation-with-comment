@@ -16,14 +16,14 @@ const Navbar = () => {
             route:'#gal-wed',
             text: 'Photo'
         },
-        {
-            route:'#vid-wed',
-            text: 'Video'
-        },
-        {
-            route:'#home-sea',
-            text: 'Contact Us'
-        },
+        // {
+        //     route:'#vid-wed',
+        //     text: 'Video'
+        // },
+        // {
+        //     route:'#home-sea',
+        //     text: 'Contact Us'
+        // },
     ]    
     const onClick = () => showHamburgerMenu ? setShowHamburgerMenu(false) : setShowHamburgerMenu(true)
     return (        

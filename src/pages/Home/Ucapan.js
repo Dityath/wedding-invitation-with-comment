@@ -1,11 +1,13 @@
 import React from 'react'
 import Slider from "react-slick";
-import pic1 from '../../assets/images/ucapan_3.png'
+import pic1 from '../../assets/images/ucapan_1.png'
 import pic2 from '../../assets/images/ucapan_2.png'
-import pic3 from '../../assets/images/ucapan_4.png'
-import pic4 from '../../assets/images/ucapan_5.png'
-import pic5 from '../../assets/images/ucapan_6.png'
-import pic6 from '../../assets/images/ucapan_7.png'
+import pic3 from '../../assets/images/ucapan_3.png'
+import pic4 from '../../assets/images/ucapan_4.png'
+import pic5 from '../../assets/images/ucapan_5.png'
+import pic6 from '../../assets/images/ucapan_6.png'
+import pic7 from '../../assets/images/ucapan_7.png'
+import pic8 from '../../assets/images/ucapan_8.png'
 import arrBack from "../../assets/images/Slider/ArrowBack.png";
 import arrNext from "../../assets/images/Slider/ArrowNext.png";
 
@@ -52,33 +54,43 @@ function NextArrow(props) {
     const people = [ 
         {
             url: pic1,
-            name: 'Afuza Imam Awed Alfaruq',
-            pesan: 'Untuk Suami, Percayalah, ketika engkau memuliakan istrimu, maka sejak saat itu kebahagiaan akan selalu menghampirimu... Untuk Istri, Suami tidak akan pernah berhenti untuk memikirkan pasangannya (istri). Percayalah, dia selalu memikirkan dan memberikan yang terbaik untuk dirimu...'
+            name: 'Kirana Kinanta Kinasih',
+            pesan: 'Selamat menempuh hidup baru sahabatku, semoga Allah swt senantiasa menyempurnakan kebahagiaan kalian, dan menjadikan pernikahan kalian sebagai ibadah kepada Nya 😇🤍'
         },
         {
             url: pic2,
-            name: 'Anddy Marrusliansyah',
-            pesan: 'Kami tidak bisa memberikan sesuatu yang terbaik untuk dirimu, teman sekaligus keluarga untukmu. Setelah sekian lama akhirnya dirimu menemukan tambatan hati yang terakhir, kami akan selalu berdoa semoga hal terbaik menyertai u dan mampu mengarungi bahtera keluarga yang baru'
+            name: 'Muhammad Rosul',
+            pesan: "Lelah itu biasa, kecewa itu wajar. Namun, percayalah dalam pernikahan bukan tentang seberapa kali engkau lelah dan kecewa, melainkan tentang seberapa lama dan kuat engkau bertahan (fiddiniwaddun'ya) 😉"
         },
         {
             url: pic3,
-            name: 'Bu Eka Rubiyatun',
-            pesan: 'Komitmen, kesabaran, dan kesetiaan menjadi tiga bahan yang perlu dipupuk dalam pernikahan. Jangan berhenti untuk merawat, karena bunga itu akan menemanimu setiap saat.'
+            name: 'Irda Andini',
+            pesan: 'Jadilah yang mencintai dan bukan hanya untuk dicintai karena pernikahan hanya bersama orang yang mencintai bukan dicintai." semawa selamat menempuh hidup baru happy wheeding'
         },
         {
             url: pic4,
-            name: 'Putri Dian Nawwirah',
-            pesan: 'Selamat menempuh hidup baru & selamat berbahagia Kakakku... Semoga Allah memberikan keberkahan kepadamu serta keberkahan atasmu dan semoga Allah mengumpulkan kalian berdua dalam kebaikan....'
+            name: 'Lia Agustin',
+            pesan: 'Akhirnya, selamat menikah sahabatku. Melihat perjuanganmu untuk move on dari pengalaman kasih yang penuh duka, aku turut berbahagia ketika mendengar kabar kamu menemukan pasangan terbaikmu. Semoga kisah cintamu dan dia berlangsung abad'
         },
         {
             url: pic5,
-            name: 'Novita',
-            pesan: "Barakallahu lakuma wa baraka 'alaikuma wa jama'a bainakuma fii khoir.  Selamat menempuh hidup baru ...d berikan keturuan yang shalih  shalihah... Semoga suami mu bisa menjadi pendamping dunia dan akhirat mu.. dan bisa membahagiakan mu lahir dan batin."
+            name: 'Indah permata sari',
+            pesan: "Selama menempuh hidup baru manusia bucinnnkuu, semoga ini menjadi pelabuhan cinta terakhirmu  dan selalu bersama dalam keadaan apapun."
         },
         {
             url: pic6,
-            name: 'Lila Zein',
-            pesan: "Buat kak Sanah, dan bang Mukti.... Selamat menempuh kehidupan yang penuh keberkahan, dan kebahagiaan duniaakhirat. 'Sebuah pernikahan itu bagaikan rantai dan cincin emas,  Yang diawali dengan secercah sinar terang dan di akhiri dengan keabadian'"
+            name: 'Fatmawati',
+            pesan: "Sejatinya pernikahan adalah lembaran baru kehidupan, kebahagiaan, kebersamaan, dan hal-hal baik lainnya yang menyertai. Selamat menempuh hidup baru"
+        },
+        {
+          url: pic7,
+          name: 'Andina selfiana',
+          pesan: "Sempurna nya pernikahan bukan karena pasangan sempurna, nanum yang menyempurnakan keduanya"
+        },
+        {
+          url: pic8,
+          name: 'Laylatul Jannah',
+          pesan: 'Pernikahan bukan sekedar bertemunya antara tulang rusuk dan tulang punggung, tetapi juga Ziyadatul khoir fii kulli hal yaitu "Bertambahnya kebaikan dalam segala hal" Barokallahulakum'          
         },
     ] 
     return (

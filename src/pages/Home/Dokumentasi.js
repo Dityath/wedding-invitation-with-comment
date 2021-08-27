@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import YouTube from 'react-youtube';
+//import YouTube from 'react-youtube';
 import Slider from "react-slick";
 
 import pic1 from '../../assets/images/gallery_1.jpg'
@@ -72,10 +72,10 @@ function NextArrow(props) {
       prevArrow: <PrevArrow />
     };  
     const gallery = [pic5, pic6, pic1,pic2, pic3, pic4]     
-    const opts = {
+    /*const opts = {
       height: '315',
       width: '560',      
-    };
+    };*/
 
     return (
         <div className="dokumentasi-container" id="gal-wed">            

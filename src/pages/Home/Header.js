@@ -5,7 +5,7 @@ import goDown from '../../assets/images/go_down.png'
 import Navbar from '../../helper/components/Navbar'
 const Header = ({more, heightHead}) => {
     let { id } = useParams();    
-    let newWords = id? id.split("-"): ['saha?'];    
+    let newWords = id? id.split("-"): ['Bapak/Ibu'];    
     
     return (
         <div className="header-container" id="home-wed" style={heightHead? {minHeight:"100%"}:{minHeight: "100vh"}} >

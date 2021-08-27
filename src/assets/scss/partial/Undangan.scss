@@ -91,7 +91,7 @@
     .undangan-container {
         background-size: 25vw 15vw, 20vw 45vw;
         .pasangan {
-            flex-direction: column-reverse;
+            flex-direction: column;
             .profil-info {
                 text-align: center;
                 width: 40%;
@@ -103,7 +103,7 @@
                 }
             }
             .profil-pic {
-                flex-direction: column-reverse;
+                flex-direction: column;
                 margin: 2vmin 3vw;
                 .round-ava {
                     width: 20vmin;

@@ -26,7 +26,7 @@ const Undangan = () => {
     //         text: 'Detik'
     //     }
     // ]
-    const dday = new Date(2021, 9, 10)
+    const dday = new Date(2021, 8, 10)
     // console.log(dday)
     const renderer = ({ formatted: { days, hours, minutes, seconds }}) => {        
         // return <span>Ends in:  {hours} : {minutes} : {seconds}</span>

@@ -75,7 +75,7 @@ const Akad = () => {
                 <a  
                     target="_blank"
                     rel="noopener noreferrer" 
-                    href="https://www.instagram.com/muktiareif/" 
+                    href="https://www.instagram.com/kang_fen017/" 
                     className="btn-link"
                 >
                     <FaInstagram size="3vmax" color="#9CB8C4" />

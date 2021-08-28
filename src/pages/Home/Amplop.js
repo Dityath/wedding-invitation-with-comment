@@ -32,10 +32,10 @@ const Amplop = () => {
                         </>
                     */}
                     <>
-                            <img className="transfer" src={imgBarcode1} alt="" />
-                            <p className="norek">0299003077</p>
-                            <p>A/N Siti Kamaruyah</p>
-                        </>               
+                        <img className="transfer" src={imgBarcode1} alt="" />
+                        <p className="norek">0299003077</p>
+                        <p>A/N Siti Kamaruyah</p>
+                    </>
                 </div>
             </div>
         </div>

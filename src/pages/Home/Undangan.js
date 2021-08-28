@@ -91,12 +91,14 @@ const Undangan = () => {
                     }                
                 </div> */}
                 <div className="deskripsi">
-                    <p>Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan.</p>                
+                    <p>“Dan nikahkanlah orang-orang yang sendirian di antara kamu, dan orang-orang yang layak (menikah) dari hamba sahayamu yang lelaki dan hamba-hamba sahayamu yang perempuan. jika mereka miskin Allah akan mengkayakan mereka dengan karunianya. Dan Allah Maha Luas (pemberiannya) dan Maha Mengetahui." (QS. An Nuur (24) : 32) <br /><br />
+
+                    Ya Allah, dengan Rahmat dan Ridho-Mu perkenankanlah tautan cinta buah hati kami :</p>                
                 </div>
                 <div className="pasangan">
                     <div className="profil-info">
                         <p>Ferdiansyah</p>
-                        <p>Putra dari bapak Hartawi <br />dan ibu Munia</p>
+                        <p>Putra dari bapak Artawi <br />dan ibu Munia</p>
                     </div>
                     <div className="profil-pic">
                         <img className="round-ava" src={avaPria} alt="" />

@@ -65,13 +65,23 @@ const Akad = () => {
                 <a           
                     target="_blank"
                     rel="noopener noreferrer" 
-                    href="https://goo.gl/maps/K6D5CaPLpHRTY3rd6"
+                    href="https://goo.gl/maps/AwXa5845MbG55mDr5"
                     className="btn-link"
                 >
                    
                     <ImLocation size="3vmax" color="#9CB8C4" />
-                    <p>Google Maps</p>
-                </a>                
+                    <p>Akad</p>
+                </a>
+                <a           
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    href="https://goo.gl/maps/XW1voj9sRpMZTXiH9"
+                    className="btn-link"
+                >
+                   
+                    <ImLocation size="3vmax" color="#9CB8C4" />
+                    <p>Walimatul ‘Ursy</p>
+                </a>
                 <a  
                     target="_blank"
                     rel="noopener noreferrer" 

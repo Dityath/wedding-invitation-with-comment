@@ -97,8 +97,8 @@ const Undangan = () => {
                 </div>
                 <div className="pasangan">
                     <div className="profil-info">
-                        <p>Ferdiansyah</p>
-                        <p>Putra dari bapak Artawi <br />dan ibu Munia</p>
+                        <p>Fendiansyah</p>
+                        <p>Putra dari bapak Hartawi <br />dan ibu Munia</p>
                     </div>
                     <div className="profil-pic">
                         <img className="round-ava" src={avaPria} alt="" />

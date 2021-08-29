@@ -13,7 +13,7 @@ const Header = ({more, heightHead}) => {
             <div className="info" data-aos="fade-up" >
                 <div className="info-undangan">
                     <img src={cincin} alt="" />
-                    <h1>Ferdiansyah &#38; Hesti</h1>
+                    <h1>Fendiansyah &#38; Hesti</h1>
                     <h4>10th Sept 2021</h4>
                 </div>
                 <div className="info-tamu">

@@ -75,14 +75,18 @@
             align-items: center;
             padding: .5vmax 4vmin .5vmax 2vmin;
             border-radius: 2vmin;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
             p {
                 color: $green-wed-2;
                 font-size: 4vmin;
                 margin-left: 1vw;
             }
-            &:last-child {
-                margin-left: 2vw;
-            }
+        }
+        @media screen and (max-width: 800px) {
+            flex-direction: column;
         }
     }
 }

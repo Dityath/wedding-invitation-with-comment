@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <p>
-                &#169; Mukti &#38; Norhasanah Wedding. All Right Reserved 2021. <br />            
+                &#169; Ferdiansyah &#38; hesti Wedding. All Right Reserved 2021. <br />            
                 Build by <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bagastri_07">Bagas Tri Wibowo </a> 
                 &#38; <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dityath">Ditya Athallah </a> <br />
                 Icons by <a  target="_blank" rel="noopener noreferrer" href="https://www.freepik.com/">Freepik </a> 

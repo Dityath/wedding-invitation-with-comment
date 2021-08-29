@@ -9,7 +9,7 @@ const Footer = () => {
                 &#38; <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dityath">Ditya Athallah </a> <br />
                 Icons by <a  target="_blank" rel="noopener noreferrer" href="https://www.freepik.com/">Freepik </a> 
                 &#38; <a  target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/">Flaticon</a> <br />
-                Song by <a  target="_blank" rel="noopener noreferrer" href="https://youtu.be/tDaUDStUERk">Sam Tsui &#38; Kirsten Collins - Locked Away</a> <br />
+                Song by <a  target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=p_IwENcMPOA">Thomas Rhett - Marry Me</a> <br />
                 Supported by <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/airaprojectphoto">AIRA Project</a>
             </p>
         </div>

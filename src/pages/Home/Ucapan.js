@@ -54,7 +54,7 @@ function NextArrow(props) {
     const people = [ 
         {
             url: pic1,
-            name: 'Kirana Kinanta Kinasih',
+            name: 'Kirana Kinantan Kinasih',
             pesan: 'Selamat menempuh hidup baru sahabatku, semoga Allah swt senantiasa menyempurnakan kebahagiaan kalian, dan menjadikan pernikahan kalian sebagai ibadah kepada Nya 😇🤍'
         },
         {

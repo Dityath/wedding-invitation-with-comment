@@ -20,10 +20,6 @@ export default class Ucapan extends Component {
     api.get(`event/${event}`).then((res) => {
       this.setState({ messages: res.data.data.message });
     });
-    api.get(`event/${event}`).then((res) => {
-      this.setState({ timeNow: res.data.ServerDate });
-      console.log(res.data.ServerDate);
-    });
   }
 
   handleSubmit = (e) => {

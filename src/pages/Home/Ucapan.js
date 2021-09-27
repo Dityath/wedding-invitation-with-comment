@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import moment from "moment";
+import "moment/locale/id";
 
 const api = axios.create({
   baseURL: "https://api2.bagas3.my.id//",
@@ -67,6 +68,7 @@ export default class Ucapan extends Component {
                 <br />
                 <p>
                   {moment(message.createdAt)
+                    .locale("id")
                     .startOf("minute")
                     .fromNow()}
                 </p>
